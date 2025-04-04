@@ -12,7 +12,7 @@ st.title("Baggage Threat Detection System")
 st.write("Upload an image to detect potential threats.")
 
 # Load YOLOv8 model
-model = YOLO("best.pt")
+model = YOLO("data\best.pt")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
