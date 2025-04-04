@@ -2,6 +2,9 @@ import streamlit as st
 import torch
 from ultralytics import YOLO
 from ultralytics.nn.tasks import DetectionModel
+from PIL import Image
+import cv2
+import numpy as np
 
 torch.serialization.add_safe_globals([DetectionModel])
 
@@ -13,9 +16,9 @@ model = YOLO("best.pt")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
-    from PIL import Image
-    import cv2
-    import numpy as np
+    #from PIL import Image
+    #import cv2
+    #import numpy as np
     
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image", use_column_width=True)
