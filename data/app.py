@@ -4,7 +4,7 @@ from ultralytics import YOLO
 from ultralytics.nn.tasks import DetectionModel
 
 
-torch.serialization.add_safe_globals([DetectionModel])
+#torch.serialization.add_safe_globals([DetectionModel])
 
 st.title("Baggage Threat Detection System")
 st.write("Upload an image to detect potential threats.")
