@@ -10,9 +10,11 @@ torch.serialization.add_safe_globals([DetectionModel])
 
 st.title("Baggage Threat Detection System")
 st.write("Upload an image to detect potential threats.")
+st.write("Files in the current directory:")
+st.write(os.listdir('.'))
 
 # Load YOLOv8 model
-model = YOLO("data\best.pt")
+model = YOLO("best.pt")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
