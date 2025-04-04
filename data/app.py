@@ -26,7 +26,7 @@ if uploaded_file is not None:
     img_cv2 = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
     
     # Run YOLOv8 inference
-    results = model(img_cv2,conf=.15)
+    results = model(img_cv2)
     output_img = results[0].plot()
     
     # Convert back to RGB and display
