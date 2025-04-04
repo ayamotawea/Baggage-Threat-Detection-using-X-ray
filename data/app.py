@@ -11,6 +11,7 @@ st.write("Upload an image to detect potential threats.")
 
 # Load YOLOv8 model
 model = YOLO("data/best.pt")
+conf_threshold = 0.15  # Set the desired confidence threshold (0.0 to 1.0)
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
@@ -26,7 +27,7 @@ if uploaded_file is not None:
     img_cv2 = cv2.cvtColor(img_array, cv2.COLOR_RGB2BGR)
     
     # Run YOLOv8 inference
-    results = model.predict(img_cv2,conf=.15)
+    results = model(img_cv2, conf=conf_threshold)
     output_img = results[0].plot()
     
     # Convert back to RGB and display
