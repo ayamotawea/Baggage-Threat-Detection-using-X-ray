@@ -5,6 +5,8 @@ from ultralytics.nn.tasks import DetectionModel
 from PIL import Image
 import cv2
 import numpy as np
+import os
+
 
 torch.serialization.add_safe_globals([DetectionModel])
 
