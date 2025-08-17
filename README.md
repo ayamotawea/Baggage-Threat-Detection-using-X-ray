@@ -38,7 +38,8 @@ https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/ima
 
 ## 📑 Dataset
 
-SIXray Dataset on Kaggle
+- [SIXray Dataset on Kaggle](https://www.kaggle.com/datasets/khanhbtq99/sixray)
+- 
 
 ## 🛠 Tech Stack
 
