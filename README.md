@@ -32,24 +32,24 @@ Detects **guns, knives, pliers, scissors, and wrenches** using **YOLOv8**.
 
 ## 📊 Sample Outputs
 
-https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images/31.PNG
-
+https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images/36.PNG
 https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images/34.PNG
+https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images/31.PNG
 
 ## 📑 Dataset
 
 - [SIXray Dataset on Kaggle](https://www.kaggle.com/datasets/khanhbtq99/sixray)
-- 
+
 
 ## 🛠 Tech Stack
 
-Python
+- Python
 
-PyTorch · Ultralytics YOLOv8
+- PyTorch · Ultralytics YOLOv8
 
-OpenCV
+- OpenCV
 
-Streamlit
+- Streamlit
 
 ## 📂 Repository Structure
 ```bash
@@ -64,11 +64,11 @@ Streamlit
 ```
 ## 📌 Future Work
 
-Add more threat categories (e.g., explosives, drones).
+- Add more threat categories (e.g., explosives, drones).
 
-Test robustness with out-of-distribution datasets.
+- Test robustness with out-of-distribution datasets.
 
-Optimize for edge-device deployment.
+- Optimize for edge-device deployment.
 
 <img width="871" height="492" alt="1" src="https://github.com/user-attachments/assets/60fdf8a1-4d0e-46cc-9ebf-0640e2700eeb" />
 <img width="871" height="492" alt="2" src="https://github.com/user-attachments/assets/98b1db81-532e-4ea1-beda-bf8cabb5b4b7" />
