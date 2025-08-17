@@ -17,8 +17,8 @@ Detects **guns, knives, pliers, scissors, and wrenches** using **YOLOv8**.
 
 1. **Clone this repository**:      
    ```bash
-   git clone https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray.git
-   cd Baggage-Threat-Detection-using-X-ray
+   git clone https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray.git
+   cd Baggage-Threat-Detection-using-X-ray
    ```
 2. **Install requirements**:
    ```bash
