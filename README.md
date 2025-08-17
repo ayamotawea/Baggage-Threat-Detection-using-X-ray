@@ -32,9 +32,7 @@ Detects **guns, knives, pliers, scissors, and wrenches** using **YOLOv8**.
 
 ## 📊 Sample Outputs
 
-https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images/36.PNG
-https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images/34.PNG
-https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images/31.PNG
+https://github.com/ayamotawea/Baggage-Threat-Detection-using-X-ray/blob/main/images
 
 ## 📑 Dataset
 
