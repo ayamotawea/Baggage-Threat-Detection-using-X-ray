@@ -1,5 +1,51 @@
 # Baggage-Threat-Detection-using-X-ray
+Baggage Threat Detection using X-ray
 
+🚨 Deep learning project for automated threat detection in X-ray baggage scans.
+Detects guns, knives, pliers, scissors, and wrenches using YOLOv8.
+
+📌 Project Overview
+
+Trained on the SIXray dataset (17K+ X-ray images).
+
+Compared YOLOv8 and YOLOv12 for detection performance.
+
+✅ YOLOv8 achieved better accuracy (mAP50 = 0.899) and 17× faster inference than YOLOv12, making it suitable for real-time deployment.
+
+⚙️ How to Run
+
+Install requirements:
+
+pip install -r data/requirements.txt
+
+
+Run the Streamlit app:
+
+streamlit run data/app.py
+
+
+Upload an X-ray image → model predicts threats in real time.
+
+🌐 Live Demo: Streamlit App
+
+📊 Sample Outputs
+
+(Add a couple of images here later from images/ folder)
+
+![Gun Detection](images/gun_detected.png)
+![Knife Detection](images/knife_detected.png)
+
+📑 Dataset
+
+SIXray Dataset on Kaggle
+
+🛠 Tech Stack
+
+Python · PyTorch · YOLOv8
+
+OpenCV · Streamlit
+
+✍️ Developed by Aya Motawea
 <img width="871" height="492" alt="1" src="https://github.com/user-attachments/assets/60fdf8a1-4d0e-46cc-9ebf-0640e2700eeb" />
 <img width="871" height="492" alt="2" src="https://github.com/user-attachments/assets/98b1db81-532e-4ea1-beda-bf8cabb5b4b7" />
 <img width="868" height="490" alt="3" src="https://github.com/user-attachments/assets/366df88f-70f2-4525-94c7-31d369c98660" />
