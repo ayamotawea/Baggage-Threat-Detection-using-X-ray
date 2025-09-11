@@ -61,6 +61,7 @@ Detects **guns, knives, pliers, scissors, and wrenches** using **YOLOv8**.
 ├── docs/                  # Documentation + slides
 └── README.md
 ```
+
 ## 📌 Future Work
 
 - Add more threat categories (e.g., explosives, drones).
